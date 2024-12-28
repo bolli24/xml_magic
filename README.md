@@ -1,6 +1,6 @@
 # xml_magic
 
-Command-line XML formatter with proper indentation and comment preservation.
+A resonably fast command-line XML formatter with proper indentation and comment preservation.
 
 ## Usage
 ```bash
