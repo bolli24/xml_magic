@@ -8,3 +8,7 @@ edition = "2021"
 [dependencies]
 xml = "0.8"
 clap = { version = "4.5", features = ["derive"] }
+
+[package.metadata.binstall.signing]
+algorithm = "minisign"
+pubkey = "RWR/9qIFIPtKkjktb3lHpuHDR+617mVHdYt2iq0jdcy/xWumrOlOf0Sg"
