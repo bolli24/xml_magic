@@ -2,6 +2,27 @@
 
 A reasonably fast command-line XML formatter with proper indentation and comment preservation.
 
+## Installation
+### Using cargo-binstall (prebuilt binaries)
+```bash
+cargo binstall xml_magic
+```
+
+### From crates.io
+```bash
+cargo install xml_magic
+```
+
+### From source
+```bash
+# Clone the repository
+git clone https://github.com/bolli24/xml_magic
+cd xml_magic
+
+# Build and install
+cargo install --path .
+```
+
 ## Features
 
 - Fast XML formatting with customizable indentation
